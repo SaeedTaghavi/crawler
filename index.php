@@ -38,22 +38,26 @@ foreach ($tags as $tag){
 //        print_r($each_news) ;
 //        echo $each_news;
 
-        //get the header of that news
-        foreach ($each_news->find('h1') as $item) {
-            echo $item."<br>";
-        }
-
         //get the page description from the <head> <meta name="description" content="...everything that is here...">
         $meta_tags= get_meta_tags($absolute_url);
         echo $meta_tags['description']."<br><br><br>";
 
+        //get the header of that news: title
+        foreach ($each_news->find('h1') as $item) {
+            echo $item."<br>";
+        }
+
         //in the main content of that news page, get the first image
         foreach ($each_news->find('main.content') as $content){
+//            echo $content."<br>";
             foreach ($content->find('img') as $img){
                 echo $img."<br>";
                 break;
             }
-//        exit("********");
+            foreach ($content->find('p') as $p){
+                echo $p;
+            }
+        exit("********");
         }
 //        echo $absolute_url."<br>";
     }
