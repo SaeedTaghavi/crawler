@@ -57,7 +57,8 @@ foreach ($tags as $tag){
             foreach ($content->find('p') as $p){
                 echo $p;
             }
-        exit("********");
+        echo "************";
+//        exit("********"); in case of test, if you execute this line, everything would be run just for the first founded news link 
         }
 //        echo $absolute_url."<br>";
     }
