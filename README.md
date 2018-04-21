@@ -8,7 +8,13 @@ are the library I just have used.
 | ![result for a popular persian sport news website](https://github.com/SaeedTaghavi/crawler/blob/master/res.png)  |
 | :--: |
 | *Result for a popular persian sport news website * |
- 
-|  ![result + news link descriptions](https://github.com/SaeedTaghavi/crawler/blob/master/res+descrptn.png)  | 
+
+
+|  ![news title + descriptions](https://github.com/SaeedTaghavi/crawler/blob/master/res+descrptn.png)  | 
+| :--: |
+| *Result for a popular persian sport news website containing news link descriptions * |
+
+
+|  ![news title + descriptions + text content](https://github.com/SaeedTaghavi/crawler/blob/master/res3.png)  | 
 | :--: |
 | *Result for a popular persian sport news website containing news link descriptions * |
